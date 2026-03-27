@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background: linear-gradient(90deg, #4e73df, #1cc88a);
+    color: white;
+    height: 70px;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+.titulo {
+    text-align: center;
+    flex: 1;
+}
+
+.titulo h5 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.titulo small {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.usuario {
+    font-size: 14px;
+}
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #4e73df, #224abe);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    text-align: left;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+.menu-btn:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateX(5px);
+}
+
+.menu-btn.active {
+    background: white;
+    color: #4e73df;
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background: #4e73df;
+    color: white;
+}
+
+.sidebar button {
+    border: none;
+}
+
+.content {
+    background: #f8f9fc;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.aprovado {
+    color: #1cc88a;
+}
+
+.reprovado {
+    color: #e74a3b;
+}
